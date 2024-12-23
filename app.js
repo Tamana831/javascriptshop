@@ -16,13 +16,13 @@ function updateBadge() {
   }
 }
 
-// Klickhändelse för "Add to Cart"
+// Klick för "Add to Cart"
 addToCartButton.addEventListener('click', () => {
   cartCount++; // Öka antalet produkter
   updateBadge(); // Uppdatera visningen
 });
 
-// Klickhändelse för "Remove from Cart" / "14 Inch"
+// klick för "Remove from Cart" / "14 Inch"
 inchButton.addEventListener('click', () => {
   if (cartCount > 0) {
     cartCount--; // Minska antalet produkter
